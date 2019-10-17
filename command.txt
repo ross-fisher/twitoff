@@ -1,0 +1,4 @@
+export FLASK_APP=twitoff:APP
+export FLASK_DEBUG=1
+export FLASK_ENV=development
+# . command.txt

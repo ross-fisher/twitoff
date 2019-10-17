@@ -1,2 +1,2 @@
-# twitoff
-web application for comparing tweets
+# DS7_twitoff
+A fun web application for comparing and predicting tweets

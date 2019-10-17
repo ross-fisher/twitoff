@@ -1,0 +1,8 @@
+basilica
+flask
+flask-sqlalchemy
+gunicorn
+psycopg2
+scikit-learn
+sklearn
+tweepy
