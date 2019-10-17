@@ -5,6 +5,7 @@ from decouple import config
 from flask import Flask, render_template, request, redirect
 from .models import DB, User
 from .twitter import add_or_update_user
+from .predict import predict_user
 
 # for some it's expecting 2 arguments?
 def create_app(a=None, b=None):
