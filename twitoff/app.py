@@ -1,16 +1,15 @@
 """Main application for twitoff"""
 
+import os
 from decouple import config
 from flask import Flask, render_template, request, redirect
-import os
 from .models import DB, User
 from .twitter import add_or_update_user
 
-def create_app():
+# for some it's expecting 2 arguments?
+def create_app(a=None, b=None):
     """create and configures an instance of a flask app"""
     app = Flask(__name__)
-
-
 
     app.config['SQLALCHEMY_DATABASE_URI'] = config('DATABASE_URL')
     app.config['ENV'] = config('ENV') #should change this later to production
