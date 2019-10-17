@@ -1,3 +1,4 @@
+python-decouple
 basilica
 flask
 flask-sqlalchemy
